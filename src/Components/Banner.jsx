@@ -32,7 +32,7 @@ const Banner = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          Indulge in Nature's Sweetness
+          Indulge in Nature Sweetness
         </motion.p>
 
         <motion.a 

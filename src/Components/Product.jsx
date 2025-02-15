@@ -1,27 +1,46 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import kalmi from '../assets/Products/kalmi edited.png'
+import ajwa from '../assets/Products/ajwa.webp'
+import naghal from '../assets/Products/naghal.webp'
+import sari from '../assets/Products/sari.jpg'
+import zihadi from '../assets/Products/zihadi.webp'
 
 const products = [
   {
     id: 1,
-    name: 'Premium Medjool Dates',
+    name: 'Premium Ajwa Dates',
     description: 'Sweet and soft, perfect for a healthy snack.',
     price: '$10.99',
-    imageUrl: 'https://example.com/path-to-your-image.jpg'
+    imageUrl: ajwa
   },
   {
     id: 2,
-    name: 'Organic Dates',
+    name: 'Kalmi Maryam Dates',
     description: 'Organic dates, naturally sweet and rich in flavor.',
     price: '$8.99',
-    imageUrl: 'https://example.com/path-to-your-image.jpg'
+    imageUrl: kalmi
   },
   {
     id: 3,
-    name: 'Stuffed Dates',
+    name: 'Naghal (Big size)',
     description: 'Dates stuffed with almonds, perfect for a gourmet treat.',
     price: '$15.99',
-    imageUrl: 'https://example.com/path-to-your-image.jpg'
+    imageUrl: naghal
+  },
+  {
+    id: 4,
+    name: 'Sari Dates',
+    description: 'Organic dates, naturally sweet and rich in flavor.',
+    price: '$8.99',
+    imageUrl: sari
+  },
+  {
+    id: 5,
+    name: 'Zihadi Dates',
+    description: 'Dates stuffed with almonds, perfect for a gourmet treat.',
+    price: '$15.99',
+    imageUrl: zihadi
   }
 ];
 
