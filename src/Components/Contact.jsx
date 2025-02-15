@@ -18,7 +18,7 @@ const Contact = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Direct Call */}
           <motion.a 
-            href="tel:+880123456789" 
+            href="tel:+8801759627617" 
             className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 flex flex-col items-center"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
@@ -26,12 +26,12 @@ const Contact = () => {
           >
             <BiPhoneCall className="text-amber-600 w-12 h-12 mb-4" />
             <h3 className="text-xl font-bold text-[#4E342E] mb-2">Direct Call</h3>
-            <p className="text-gray-600">+880 123 456 789</p>
+            <p className="text-gray-600">+880 1759-627617</p>
           </motion.a>
 
           {/* WhatsApp */}
           <motion.a 
-            href="https://wa.me/880123456789" 
+            href="https://wa.me/8801759627617" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 flex flex-col items-center"
@@ -46,7 +46,7 @@ const Contact = () => {
 
           {/* Facebook Page */}
           <motion.a 
-            href="https://www.facebook.com/YourPageName" 
+            href="https://www.facebook.com/Merris.Group" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 flex flex-col items-center"
