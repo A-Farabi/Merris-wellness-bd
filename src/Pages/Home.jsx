@@ -1,5 +1,6 @@
 import Banner from "../Components/Banner";
 import Contact from "../Components/Contact";
+import DeliverySystem from "../Components/DeliverySystem";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import Product from "../Components/Product";
@@ -16,6 +17,10 @@ const Home = () => {
         <section id="products" className="min-h-screen flex items-center justify-center bg-gray-100">
           <Product></Product>
           {/* Product Cards will go here */}
+        </section>
+
+        <section className="container mx-auto mt-10">
+          <DeliverySystem></DeliverySystem>
         </section>
   
         <section id="testimonials" className="container mx-auto flex items-center justify-center my-10">
