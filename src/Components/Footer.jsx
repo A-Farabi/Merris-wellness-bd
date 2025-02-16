@@ -1,6 +1,6 @@
 // Footer.jsx
 import React from 'react';
-import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -21,18 +21,18 @@ const Footer = () => {
 
         {/* Social Media Links */}
         <div className="flex justify-center gap-6 mb-6">
-          <a href="https://www.facebook.com/merriswellness" target="_blank" rel="noopener noreferrer" className="text-white hover:text-amber-300 transition duration-300 text-3xl">
+          <a href="https://www.facebook.com/Merris.Group" target="_blank" rel="noopener noreferrer" className="text-white hover:text-amber-300 transition duration-300 text-3xl">
             <FaFacebook />
           </a>
-          <a href="https://www.instagram.com/merriswellness" target="_blank" rel="noopener noreferrer" className="text-white hover:text-amber-300 transition duration-300 text-3xl">
-            <FaInstagram />
+          <a href="https://wa.me/8801759627617" target="_blank" rel="noopener noreferrer" className="text-white hover:text-amber-300 transition duration-300 text-3xl">
+            <FaWhatsapp />
           </a>
-          <a href="https://twitter.com/merriswellness" target="_blank" rel="noopener noreferrer" className="text-white hover:text-amber-300 transition duration-300 text-3xl">
+          {/* <a href="https://twitter.com/merriswellness" target="_blank" rel="noopener noreferrer" className="text-white hover:text-amber-300 transition duration-300 text-3xl">
             <FaTwitter />
           </a>
           <a href="https://www.linkedin.com/company/merriswellness" target="_blank" rel="noopener noreferrer" className="text-white hover:text-amber-300 transition duration-300 text-3xl">
             <FaLinkedin />
-          </a>
+          </a> */}
         </div>
 
         {/* Copyright */}

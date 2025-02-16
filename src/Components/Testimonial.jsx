@@ -2,24 +2,24 @@
 import { motion } from 'framer-motion';
 
 const testimonials = [
-  {
-    id: 1,
-    name: "Ali H.",
-    review: "Excellent quality and fast delivery. Highly recommended!",
-    rating: 5
-  },
-  {
-    id: 2,
-    name: "Fatima S.",
-    review: "Loved the freshness and taste. Will definitely order again!",
-    rating: 5
-  },
-  {
-    id: 3,
-    name: "Yusuf A.",
-    review: "Best dates I've ever had. Customer service was great too.",
-    rating: 4
-  }
+  // {
+  //   id: 1,
+  //   name: "Ali H.",
+  //   review: "Excellent quality and fast delivery. Highly recommended!",
+  //   rating: 5
+  // },
+  // {
+  //   id: 2,
+  //   name: "Fatima S.",
+  //   review: "Loved the freshness and taste. Will definitely order again!",
+  //   rating: 5
+  // },
+  // {
+  //   id: 3,
+  //   name: "Yusuf A.",
+  //   review: "Best dates I've ever had. Customer service was great too.",
+  //   rating: 4
+  // }
 ];
 
 const Testimonial = () => {

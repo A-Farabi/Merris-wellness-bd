@@ -6,7 +6,7 @@ import { FiMessageCircle } from 'react-icons/fi';
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-8 bg-[#FAFAFA]">
+    <section id="contact" className="py-8 bg-[#FAFAFA] px-10">
       <div className="max-w-6xl mx-auto px-4 text-center">
         <h2 className="text-4xl font-bold text-[#4E342E] mb-8">
           Get in Touch
